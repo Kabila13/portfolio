@@ -41,7 +41,7 @@ function Projects() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-8">
                 {Projects.map((item) => (
                     <div key={item.name} className="border-2 rounded-xl hover:shadow-xl hover:-translate-y-1 transition duration-300 border-gray-300 bg-white p-4 flex flex-col">
-                        <img src={item.image} alt={item.name} className="w-full h-48 sm:h-52 object-cover rounded-md"/>
+                        <img src={item.image} alt={item.name} className=" object-contain rounded-md"/>
                         <p className="pt-4 font-bold text-lg sm:text-xl text-green-800 text-center">{item.name}</p>
                         <p className="text-gray-500 text-sm sm:text-base text-center pt-3 leading-7">{item.description}</p>
                         <div className="flex gap-2 flex-wrap justify-center mt-6">
